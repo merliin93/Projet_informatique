@@ -1,28 +1,15 @@
-html,
-body,
-header,
-#intro {
-    height: 100%;
+
+header{
+ background : url('https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')no-repeat;
+  height:500px;
+  width:100%;
+  margin-top:-60px;
+  
 }
 
-#intro {
-    background: url("https://img1.wallspic.com/originals/0/7/8/9/3/139870-fleur_de_cerisier_rose_sous_le_ciel_bleu_et_les_nuages_blancs_pendant_la_journee-3840x2160.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+nav{
+    background-color:black;
+    color:FC86FF;
+    
 }
 
-.top-nav-collapse {
-    background-color: #24355C;
-  }
-  @media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #24355C;
-    }
-  }
-  @media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #24355C;
-    }
-  }

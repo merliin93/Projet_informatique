@@ -9,12 +9,6 @@
         <div class="row py-4 d-flex align-items-center">
 
             <!--Grid column-->
-            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                <h6 class="mb-0 white-text">Nos réseaux sociaux</h6>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
             <div class="col-md-6 col-lg-7 text-center text-md-right">
                 <!--Facebook-->
                 <a class="fb-ic ml-0">
@@ -75,7 +69,7 @@
                 <a href="#!">adresse email</a>
             </p>
             <p>
-                <a href="#!">Nous contacter </a>
+                <a href="./contact.php">Nous contacter </a>
             </p>
         </div>
         <!--/.Second column-->
