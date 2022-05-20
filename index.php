@@ -22,7 +22,32 @@ include("./includes/header.php");
 <!--Main Navigation-->
 
 <!--Main layout-->
-
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img_ephad.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img_ephad.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img_ephad.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
     <!--Section: Best Features-->
     <section id="best-features" class="text-center">
@@ -78,112 +103,11 @@ include("./includes/header.php");
     </section>
     <!--Section: Best Features-->
 
-    <hr class="my-5">
-
+    <div class="organigramme">
+        <img src="organigramme.png" class="img-fluid" alt="">
+    </div>
     <!--Section: Examples-->
-    <section id="examples" class="text-center">
-
-        <!-- Heading -->
-        <h2 class="mb-5 font-weight-bold">Le personnel </h2>
-
-        <!--Grid row-->
-        <div class="row">
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
-
-                <div class="view overlay z-depth-1-half p-2">
-                    <img src="https://www.aidonslesnotres.fr/wp-content/uploads/2018/03/Etre-accompagne-au-quotidien-personnel-ehpad-700x465-1.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
-                </div>
-
-                <h4 class="my-4 font-weight-bold">medecin</h4>
-                <p class="grey-text">description</p></p>
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <div class="view overlay z-depth-1-half p-2">
-                    <img src="https://www.aidonslesnotres.fr/wp-content/uploads/2018/03/Etre-accompagne-au-quotidien-personnel-ehpad-700x465-1.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
-                </div>
-
-                <h4 class="my-4 font-weight-bold">infirmière</h4>
-                <p class="grey-text">description</p>
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <div class="view overlay z-depth-1-half p-2">
-                    <img src="https://www.aidonslesnotres.fr/wp-content/uploads/2018/03/Etre-accompagne-au-quotidien-personnel-ehpad-700x465-1.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
-                </div>
-
-                <h4 class="my-4 font-weight-bold">ASH</h4>
-                <p class="grey-text">description</p>
-
-            </div>
-            <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
-        <!--Grid row-->
-        <div class="row">
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
-
-                <div class="view overlay z-depth-1-half p-2">
-                    <img src="https://www.aidonslesnotres.fr/wp-content/uploads/2018/03/Etre-accompagne-au-quotidien-personnel-ehpad-700x465-1.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
-                </div>
-
-                <h4 class="my-4 font-weight-bold">medecin</h4>
-                <p class="grey-text">description</p>
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <div class="view overlay z-depth-1-half p-2">
-                    <img src="https://www.aidonslesnotres.fr/wp-content/uploads/2018/03/Etre-accompagne-au-quotidien-personnel-ehpad-700x465-1.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
-                </div>
-
-                <h4 class="my-4 font-weight-bold">infirmière</h4>
-                <p class="grey-text">text text text </p>
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <div class="view overlay z-depth-1-half p-2">
-                    <img src="https://www.aidonslesnotres.fr/wp-content/uploads/2018/03/Etre-accompagne-au-quotidien-personnel-ehpad-700x465-1.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
-                </div>
-
-                <h4 class="my-4 font-weight-bold">ASH</h4>
-                <p class="grey-text">text text text</p>
-
-            </div>
-            <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
-    </section>
-    <!--Section: Examples-->
+    
 
 
 </div>

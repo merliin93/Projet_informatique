@@ -2,13 +2,13 @@
 <header>
 <link href="./css/style.css" rel="stylesheet">
 
-<nav id="mynav" class="navbar navbar-expand-lg wrapper navbar-dark sticky-top" style=" background-color:pink;
-    color:white;">
+<nav id="mynav" class="navbar navbar-expand-lg wrapper navbar-dark sticky-top" style="background-color: rgba(244,177,131,255);
+    color:white; opacity: 0.85;">
      <div>
     <img src="./img/logo_mas_dagenais.png" alt="picture here" width='70px' height='60px'>
     <a href="index.php"></a>
         </div>
-  <div class="container-fluid">
+  <div class="container-fluid" >
     <a class="navbar-brand fw-bold" href="index.php">Accueil</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -19,7 +19,7 @@
           <a class="nav-link active b" href="index.php">Présentation de l'EHPAD</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active bold" href="./droit_information.php">droit et information des résidents</a>
+          <a class="nav-link active bold" href="./Offre_d'emploi.php">Offre d'emploi</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active bold" href="./votre_sejour.php">votre séjour</a>
@@ -49,15 +49,12 @@
                         <div class="col-md-10">
 
                             <!-- Heading -->
-                            <h2 class="display-4 font-weight-bold white-text pt-5 mb-2 mt-5" style="color:white">Bienvenue</h2>
-
+                            
                             <!-- Divider -->
                             <hr class="hr-light " style="width:150px">
 
                             <!-- Description -->
-                            <h4 class="white-text my-4 ml-3" style="color:white"> </h4>
-                            <button  href="#best-features" type="button" class="font-weight-bold btn btn-outline-white ml-2" style="color:white " >EHPAD du Mas d'Agenais<i class="fa fa-book ml-2"></i></button>
-
+                            
                         </div>
 
                     </div>
